@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: Restores the preview button on mobile
+    settings:
+      example_setting: A description of a setting.
