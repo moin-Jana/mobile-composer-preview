@@ -1,0 +1,23 @@
+.submit-panel {
+  .mobile-file-upload {
+    order: 1;
+  }
+
+  span:has(.mobile-preview, .hide-preview) {
+    display: contents;
+  }
+
+  .mobile-preview,
+  .hide-preview {
+    order: 2;
+  }
+}
+
+.btn.hide-preview {
+  line-height: 1;
+  margin-left: 0.25em;
+}
+
+.mobile-device #reply-control.show-preview .submit-panel .mobile-file-upload {
+  display: none;
+}

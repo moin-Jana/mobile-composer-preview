@@ -1,5 +1,5 @@
-# mobile-preview
+# Mobile Composer Preview
 
-**Theme Summary**
+**Restores the mobile composer preview button**
 
 For more information, please see: **url to meta topic**

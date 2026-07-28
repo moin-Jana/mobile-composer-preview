@@ -1,5 +1,5 @@
 en:
   theme_metadata:
-    description: Restores the preview button on mobile
-    settings:
-      example_setting: A description of a setting.
+    description: Restores the mobile composer preview button
+  show_preview: "show preview"
+  hide_preview: "hide preview"
