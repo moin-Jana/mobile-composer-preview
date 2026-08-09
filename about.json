@@ -2,7 +2,7 @@
   "name": "Mobile Composer Preview",
   "component": true,
   "authors": "Moin",
-  "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
+  "about_url": "https://meta.discourse.org/t/mobile-composer-preview/408784",
   "license_url": "https://github.com/moin-Jana/mobile-composer-preview/blob/main/LICENSE",
   "theme_version": "0.0.1",
   "minimum_discourse_version": null,

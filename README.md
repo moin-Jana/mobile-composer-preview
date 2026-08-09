@@ -2,4 +2,4 @@
 
 **Restores the mobile composer preview button**
 
-For more information, please see: **url to meta topic**
+For more information, please see: https://meta.discourse.org/t/mobile-composer-preview/408784
