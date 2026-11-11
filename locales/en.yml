@@ -3,3 +3,5 @@ en:
     description: Restores the mobile composer preview button
   show_preview: "show preview"
   hide_preview: "hide preview"
+  preview: "Preview"
+  edit: "Edit"

@@ -1,21 +1,35 @@
+@use "lib/viewport";
+
+@include viewport.until(sm) {
+  .composer-has-preview .composer-footer__toolbar {
+    display: none;
+  }
+}
+
 .submit-panel {
+  span:has(.mobile-preview, .hide-preview, .show-preview, .return-to-edit) {
+    display: contents;
+  }
+}
+
+.reply-area > .submit-panel {
   .mobile-file-upload {
     order: 1;
-  }
-
-  span:has(.mobile-preview, .hide-preview) {
-    display: contents;
   }
 
   .mobile-preview,
   .hide-preview {
     order: 2;
   }
+
+  .btn.hide-preview {
+    line-height: 1;
+    margin-left: 0.25em;
+  }
 }
 
-.btn.hide-preview {
-  line-height: 1;
-  margin-left: 0.25em;
+.composer-footer .submit-panel .save-or-cancel {
+  order: 1;
 }
 
 .mobile-device #reply-control.show-preview .submit-panel .mobile-file-upload {
