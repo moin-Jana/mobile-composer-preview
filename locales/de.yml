@@ -1,3 +1,7 @@
 de:
+  theme_metadata:
+    description: Stellt den Vorschau-Button im mobilen Editor wieder her
   show_preview: Vorschau zeigen
   hide_preview: Vorschau ausblenden
+  preview: Vorschau
+  edit: Bearbeiten
